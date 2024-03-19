@@ -1,0 +1,90 @@
+body {
+    background:rgb(58, 95, 218); 
+}
+#contenedor{
+    display: flex;
+    flex-direction: column; /* Alinear elementos en columna */
+    height: 100%;
+}
+
+.divA{
+    background-color: aqua;
+    height: 250px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+#contenedor2{
+    display: flex;
+    flex-direction: row; /* Alinear elementos en fila */
+    flex: 1; /* Ocupa el 100% del espacio restante verticalmente */
+}
+.divB {
+    background-color: lightcoral;
+    width: 70%; /* Ocupa el 70% del espacio del contenedor padre */
+    margin-right: 10px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    
+}
+
+
+#container-home {
+    display: flex;
+    margin-top: -21.7%;
+    margin-left: 15px;
+    flex-direction: column; /* Alinear elementos horizontalmente */
+    flex-wrap: nowrap; /* Permitir que los elementos se envuelvan si no caben en una sola línea */
+}
+
+.divF {
+    background-color: lightgreen;
+    width: 30%;
+    align-self:flex-end; /* Estira el div solo verticalmente */
+    height: 407px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#contenedor3{
+        position: relative; /* Posición relativa al elemento padre */
+        display: flex;
+        flex-direction: row; /* Alinear elementos horizontalmente */
+        align-items: flex-start; /* Alinear elementos en la parte superior del contenedor */
+}
+
+.divC, .divD, .divE {
+    width: 435.9px;
+    height: 400px;
+    margin: 5px; /* Margen alrededor de los elementos */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+
+.divC {
+    background-color: rgb(0, 0, 0);
+    order: 1; /* Orden del elemento C */
+    margin-left: 0px;
+    color: aliceblue;
+}
+
+.divD {
+    background-color: rgb(255, 255, 255);
+    order: 2; /* Orden del elemento D */
+}
+
+.divE {
+    background-color: rgb(184, 199, 50);
+    order: 3; /* Orden del elemento E */
+}
+
